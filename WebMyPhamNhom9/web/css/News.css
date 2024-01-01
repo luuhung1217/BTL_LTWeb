@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 7, 2023, 8:34:35 PM
+    Author     : ACER
+*/
+.grid1.wide1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a:hover {
+    text-decoration: none !important;
+
+}
+.mb-0{
+    font-size: 16px !important;
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.main {
+    padding: 30px 0;
+    background-color: #f2f2f2;
+}
+
+.list-new {
+    margin-top: 20px;
+}
+
+.new-item {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+
+.new-item:hover {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.new-item__img {
+    flex: 0.5;
+    margin-top: 9px;
+}
+
+.new-item__img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.new-item__body {
+    flex: 3;
+    margin-left: 20px;
+    /*margin-top: 30px;*/
+}
+
+.new-item__title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-cl-2);
+    line-height: 2rem;
+    height: calc(20px);
+    /*overflow: hidden;
+    display: block;
+    /*display: -webkit-box;*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.new-item__time {
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+
+.new-item__description {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: justify;
+    max-height: calc(20px * 6);
+    /*overflow: hidden;*/
+    display: block;
+    /*display: -webkit-box;*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+@media(max-width:1023px) {
+    .new-item__img {
+        flex: 1;
+    }
+    .new-item__body {
+        flex: 2;
+        margin-left: 20px;
+
+    }
+    .new-item__description {
+        max-height: calc(20px * 4);
+        -webkit-line-clamp: 4;
+    }
+}
+
+@media(max-width:739px) {
+    .new-item {
+        display: block;
+    }
+    .new-item__body {
+        flex: 3;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+.breadcrumb__link{
+    color: black;
+    font-size: 25px;
+}
+.breadcrumb__link:hover,.new-item__title:hover{
+    color: #9e5bab;
+}
+.header__account-manager, .header__account-product {
+    font-size: 1.5rem !important;
+    /*font-weight: 500 !importtant;*/
+
+}
